@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Car Registration</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="registration-form">
+        <h2>Register to Buy Car</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="car">Select Car Model:</label>
+            <select id="car" name="car">
+                <option value="Car Model 1">Car Model 1</option>
+                <option value="Car Model 2">Car Model 2</option>
+                <option value="Car Model 3">Car Model 3</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
